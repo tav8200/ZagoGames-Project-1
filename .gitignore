@@ -1,0 +1,61 @@
+# This .gitignore file is for Unity projects.
+
+# Ignore auto-generated Visual Studio/MonoDevelop files
+[Bb]in/
+[Oo]bj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Ignore build output
+Build/
+Builds/
+Library/
+Temp/
+Obj/
+UnityGenerated/
+Logs/
+UserSettings/
+
+# Ignore crash reports, etc.
+sysinfo.txt
+
+# Ignore temporary files
+*.swp
+*.temp
+*.tmp
+*.bak
+*.gid
+*.old
+*.orig
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Ignore JetBrains Rider project files
+.idea/
+*.sublime-*
+
+# Ignore Unity generated files
+*.stackdump
+*.sln.*
+*.userprefs
+*.uo
+
