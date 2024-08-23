@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float sprintCharge = 10f;
 
     public Rigidbody2D rb;
+    public Animator animator;
 
     Vector2 movement;
 
@@ -51,6 +52,15 @@ public class PlayerController : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+        if (movement.sqrMagnitude > 0.01f) // Check last direction to set correct idle animation
+        {
+            animator.SetFloat("LastHorizontal", movement.x);
+            animator.SetFloat("LastVertical", movement.y);
+        }
 
         StateHandler();
     }
