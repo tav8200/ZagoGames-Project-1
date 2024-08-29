@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
         if (movement.sqrMagnitude > 0.01f) // Check last direction to set correct idle animation
         {
             animator.SetFloat("LastHorizontal", movement.x);
