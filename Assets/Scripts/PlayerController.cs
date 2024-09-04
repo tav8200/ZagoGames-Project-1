@@ -29,6 +29,9 @@ public class PlayerController : MonoBehaviour
     //Check whether player is pressing sprint button or not
     private void StateHandler()
     {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
         if (Input.GetKey(KeyCode.LeftShift) && characterStats.currentStamina > 0 && (Input.GetButton("Horizontal") || Input.GetButton("Vertical")))
         {
             state = MovementState.sprinting;
@@ -50,9 +53,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
