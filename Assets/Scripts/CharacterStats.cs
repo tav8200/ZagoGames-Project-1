@@ -7,6 +7,8 @@ public class CharacterStats : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth {  get; private set; } //Any script can GET this value but only this script can SET
+    public float damageImmuneTime = 2f; //How long the player is immune to damage after getting hit
+    private bool canTakeDamage = true;
 
     public float maxStamina = 100f;
     public float currentStamina;
@@ -61,8 +63,18 @@ public class CharacterStats : MonoBehaviour
 
     public void TakeDamage (int damage)
     {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        if (damage < 0) //Do not give damage immunity if player heals from a pickup
+        {
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
+        }
+        else if (canTakeDamage) //Only give damage immunity if player loses health
+        {
+            canTakeDamage = false;
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
+            StartCoroutine(HealthDamageImmunity(damageImmuneTime));
+        }
 
         if (currentHealth < 0)
         {
@@ -130,5 +142,11 @@ public class CharacterStats : MonoBehaviour
 
         currentLightLevel = targetLightLevel;
         lightSource.pointLightOuterRadius = targetLightLevel;
+    }
+
+    private IEnumerator HealthDamageImmunity(float time)
+    {
+        yield return new WaitForSeconds(time);
+        canTakeDamage = true;
     }
 }

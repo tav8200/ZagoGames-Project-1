@@ -514,12 +514,12 @@ GameObject:
   m_Component:
   - component: {fileID: 7528069473148065775}
   - component: {fileID: 3464667381653477147}
-  - component: {fileID: 344039096518751884}
   - component: {fileID: 3154460314438930186}
   - component: {fileID: 470513579258412970}
+  - component: {fileID: 1363653443204841358}
   m_Layer: 0
   m_Name: Enemy_Crawler
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -593,27 +593,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.8202462, y: 1.7470214}
   m_EdgeRadius: 0
---- !u!95 &344039096518751884
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4297061141483060285}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4a4388fae20d2e343bc37c504b8880b1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3154460314438930186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,7 +607,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 15
   lookRadius: 10
-  crawlSpeed: 5
+  stopRadius: 3
+  crawlSpeed: 8
+  animator: {fileID: 1363653443204841358}
 --- !u!50 &470513579258412970
 Rigidbody2D:
   serializedVersion: 4
@@ -641,7 +622,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -656,6 +637,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1363653443204841358
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297061141483060285}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5cb141d1b0e8f6438114f45061a4b5f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5560038799579049688
 GameObject:
   m_ObjectHideFlags: 0
