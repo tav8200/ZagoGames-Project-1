@@ -9,6 +9,9 @@ public class EnemyOne : MonoBehaviour
     public float lookRadius = 10f; //How far enemy can see
     public float stopRadius = 2f; //How close enemy has to be to player before it stops moving
     public float crawlSpeed = 10f;
+    public float attackRange = 1f;
+    public Transform attackPoint;
+    public LayerMask attackMask;
 
     public Animator animator;
 
@@ -39,32 +42,52 @@ public class EnemyOne : MonoBehaviour
         {
             canMove = true;
             animator.SetBool("isMoving", true);
-            animator.SetBool("isAttacking", false);
-        } 
+        }
         else if (distance <= stopRadius)
         {
             canMove = false;
-            animator.SetBool("isAttacking", true);
-            animator.SetBool("isMoving", false);
+            //animator.SetBool("isMoving", false);
+            animator.SetTrigger("Attack");
         }
         else
         {
             canMove = false;
             animator.SetBool("isMoving", false);
-            animator.SetBool("isAttacking", false);
         }
     }
 
     private void FixedUpdate()
     {
+        Vector2 direction = (target.position - transform.position).normalized;
+
         if (canMove) //Move towards player only when inside of look radius
         {
-            Vector2 direction = (target.position - transform.position).normalized; 
             rb.MovePosition(rb.position + direction * crawlSpeed * Time.deltaTime);
+        }
+
+        if (direction.x <= 0.01) //Flip sprite depending on direction
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision) //Deal damage to player
+    public void Attack()
+    {
+        Vector3 pos = attackPoint.position;
+
+        Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
+        if (colInfo != null)
+        {
+            playerStat.TakeDamage(damage);
+            Debug.Log("hit");
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision) //Deal damage to player
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -77,5 +100,9 @@ public class EnemyOne : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
         Gizmos.DrawWireSphere(transform.position, stopRadius);
+
+        Vector3 pos = attackPoint.position;
+        Gizmos.color = Color.white;
+        Gizmos.DrawWireSphere(pos, attackRange);
     }
 }
