@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\enemyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|c:\\program files\\unity\\unity projects\\zagogames-project-1\\assets\\scripts\\enemyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|c:\\program files\\unity\\unity projects\\zagogames-project-1\\assets\\scripts\\crawler_walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crawler_walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|c:\\program files\\unity\\unity projects\\zagogames-project-1\\assets\\scripts\\crawler_idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crawler_idle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\healthbarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Crawler_Idle.cs",
-              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Crawler_Idle.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Crawler_Idle.cs",
-              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Crawler_Idle.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Crawler_Idle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T19:19:58.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Crawler_Walk.cs",
-              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Crawler_Walk.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Crawler_Walk.cs",
-              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Crawler_Walk.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Crawler_Walk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T19:08:20.933Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -74,39 +40,40 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyOne.cs",
               "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\EnemyOne.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyOne.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAADwvz4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv1EAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T21:07:56.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwEgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T21:08:01.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CharacterStats.cs",
               "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\CharacterStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterStats.cs",
               "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\CharacterStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterStats.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAwwJgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwC8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:07:51.428Z"
+              "WhenOpened": "2024-08-31T21:07:51.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "HealthBarControl.cs",
               "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\HealthBarControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBarControl.cs",
@@ -114,11 +81,12 @@
               "RelativeToolTip": "Assets\\Scripts\\HealthBarControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:08:03.543Z"
+              "WhenOpened": "2024-08-31T21:08:03.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "EnemyTwo.cs",
               "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\EnemyTwo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyTwo.cs",

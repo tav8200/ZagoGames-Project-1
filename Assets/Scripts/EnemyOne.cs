@@ -10,7 +10,6 @@ public class EnemyOne : MonoBehaviour
     public float stopRadius = 2f; //How close enemy has to be to player before it stops moving
     public float crawlSpeed = 10f;
     public float attackRange = 1f;
-    public Transform attackPoint;
     public LayerMask attackMask;
 
     public Animator animator;
@@ -77,13 +76,15 @@ public class EnemyOne : MonoBehaviour
 
     public void Attack()
     {
-        Vector3 pos = attackPoint.position;
+        Vector3 pos = playerStat.transform.position;
 
+        float distanceToPlayer = Vector3.Distance(transform.position, playerStat.transform.position);
+        Debug.Log(distanceToPlayer);
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo != null)
+        if (colInfo != null && distanceToPlayer <= stopRadius)
         {
             playerStat.TakeDamage(damage);
-            Debug.Log("hit");
+            Debug.Log("Attack Landed");
         }
     }
 
@@ -92,6 +93,7 @@ public class EnemyOne : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             playerStat.TakeDamage(damage);
+            Debug.Log("Bumped into player");
         }
     }
 
@@ -100,9 +102,5 @@ public class EnemyOne : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
         Gizmos.DrawWireSphere(transform.position, stopRadius);
-
-        Vector3 pos = attackPoint.position;
-        Gizmos.color = Color.white;
-        Gizmos.DrawWireSphere(pos, attackRange);
     }
 }
