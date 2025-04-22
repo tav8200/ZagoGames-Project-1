@@ -10,7 +10,9 @@ public class EnemyOne : MonoBehaviour
     public float stopRadius = 2f; //How close enemy has to be to player before it stops moving
     public float crawlSpeed = 10f;
     public float attackRange = 1f;
+
     public LayerMask attackMask;
+    public LayerMask obstacleMask;
 
     public Animator animator;
 
@@ -46,7 +48,7 @@ public class EnemyOne : MonoBehaviour
         {
             canMove = false;
             //animator.SetBool("isMoving", false);
-            animator.SetTrigger("Attack");
+            animator.SetBool("Attack", true);
         }
         else
         {
@@ -58,6 +60,8 @@ public class EnemyOne : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 direction = (target.position - transform.position).normalized;
+
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, direction, lookRadius, obstacleMask);
 
         if (canMove) //Move towards player only when inside of look radius
         {
@@ -81,14 +85,14 @@ public class EnemyOne : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, playerStat.transform.position);
         Debug.Log(distanceToPlayer);
         Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo != null && distanceToPlayer <= stopRadius)
+        if (colInfo != null)
         {
             playerStat.TakeDamage(damage);
             Debug.Log("Attack Landed");
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision) //Deal damage to player
+    private void OnColliderStay2D(Collision2D collision) //Deal damage to player
     {
         if (collision.gameObject.tag == "Player")
         {

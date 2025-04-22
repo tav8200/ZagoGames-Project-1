@@ -3,24 +3,60 @@
   "WorkspaceRootPath": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|c:\\program files\\unity\\unity projects\\zagogames-project-1\\assets\\scripts\\enemyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\pickupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|c:\\program files\\unity\\unity projects\\zagogames-project-1\\assets\\scripts\\notemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\notemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\notebuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\notebuttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\notewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\notewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\player controller scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player controller scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundfxmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmixermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\scene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\pausegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\player controller scripts\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player controller scripts\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\buttonflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\generation scripts\\newfloor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generation scripts\\newfloor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\lightflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\enemyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\healthbarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81AD1C7E-7DD0-505E-F363-09F6636A34DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemytwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +66,178 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "ButtonFlicker.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\ButtonFlicker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonFlicker.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\ButtonFlicker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonFlicker.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:27:08.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewFloor.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Generation Scripts\\NewFloor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Generation Scripts\\NewFloor.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Generation Scripts\\NewFloor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Generation Scripts\\NewFloor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:20:34.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LightFlicker.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\LightFlicker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightFlicker.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\LightFlicker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightFlicker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:11:51.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "EnemyOne.cs",
               "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\EnemyOne.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyOne.cs",
               "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\EnemyOne.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyOne.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAADwv1EAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:07:56.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T18:31:21.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoundMixerManager.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\SoundMixerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundMixerManager.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\SoundMixerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundMixerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:16:11.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SoundFXManager.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\SoundFXManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundFXManager.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\SoundFXManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundFXManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:30:51.06Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
+              "Title": "NoteManager.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\NoteManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NoteManager.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\NoteManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NoteManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:08:01.776Z",
+              "WhenOpened": "2024-11-15T21:04:58.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CharacterStats.cs",
-              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\CharacterStats.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterStats.cs",
-              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\CharacterStats.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterStats.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwC8AAAAYAAAAAAAAAA==",
+              "Title": "NoteButtonManager.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\NoteButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NoteButtonManager.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\NoteButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NoteButtonManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:07:51.428Z",
+              "WhenOpened": "2025-04-15T18:37:02.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HealthBarControl.cs",
-              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\HealthBarControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthBarControl.cs",
-              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\HealthBarControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HealthBarControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "NoteWindow.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\NoteWindow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NoteWindow.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\NoteWindow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NoteWindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T21:08:03.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T19:11:12.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Scene_Manager.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Scene_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene_Manager.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Scene_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene_Manager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wDQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:16:02.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PauseGame.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PauseGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseGame.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PauseGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:11:46.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CharacterStats.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Player Controller Scripts\\CharacterStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Controller Scripts\\CharacterStats.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Player Controller Scripts\\CharacterStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Controller Scripts\\CharacterStats.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAwwIYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T22:12:46.489Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EnemyTwo.cs",
-              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\EnemyTwo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyTwo.cs",
-              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\EnemyTwo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyTwo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Player Controller Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Controller Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\Player Controller Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Controller Scripts\\PlayerController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwv08AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:28:20.146Z"
+              "WhenOpened": "2025-01-29T22:13:13.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PickupController.cs",
+              "DocumentMoniker": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PickupController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PickupController.cs",
+              "ToolTip": "C:\\Program Files\\Unity\\Unity Projects\\ZagoGames-Project-1\\Assets\\Scripts\\PickupController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PickupController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAuwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:42:27.137Z",
+              "EditorCaption": ""
             }
           ]
         }
